@@ -1,0 +1,4 @@
+/*
+    add business logic and state management
+    handled before being set to the stateless view component
+*/
