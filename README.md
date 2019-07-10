@@ -3,8 +3,8 @@ This project was bootstrapped with Create React App.
 ## Required Update
 
 Goto: src/components/specific/MovieGrid/Movie-Grid-container.js
-MovieGridContainer.componentDidMount() does the request require a valid API key because the below is drawing data.
-Line 15: fetch([http://api.themoviedb.org/3/movie/popular?api_key=Insert_Your_API_Key_Here](http://api.themoviedb.org/3/movie/popular?api_key=Insert_Your_API_Key_Here))
+MovieGridContainer.componentDidMount() the request requires a valid API Key.
+Line 15: fetch('http://api.themoviedb.org/3/movie/popular?api_key=Insert_Your_API_Key_Here')
 
 
 
