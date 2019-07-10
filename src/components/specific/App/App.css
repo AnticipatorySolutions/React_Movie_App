@@ -1,13 +1,8 @@
 /*
 Imported by stateless view component
-    text-align: center;
-
 */
 
 .App{
     background-color: #343a40;
-}
-
-div{
-    margin: 0 !important;
+    text-align: center;
 }

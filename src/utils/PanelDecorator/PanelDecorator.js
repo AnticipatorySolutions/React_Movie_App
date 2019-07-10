@@ -5,7 +5,7 @@ export default class Panel extends React.Component{
     render(){
         return(
             <a href={'http://www.google.com'} id="Link">            
-                <img alt={this.props.text} src={"http://image.tmdb.org/t/p/"+this.props.size+this.props.src} fluid='true' />
+                <img alt={this.props.altText} src={"http://image.tmdb.org/t/p/"+this.props.size+this.props.src} fluid='true' />
             </a>
         )
     }

@@ -1,5 +1,9 @@
 This project was bootstrapped with Create React App.
 
+Goto: src/components/specific/MovieGrid/Movie-Grid-container.js
+MovieGridContainer.componentDidMount() requires valid API key
+Line 15: fetch()
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -22,3 +26,5 @@ Should launch cypress testing environment. <br>
 Doesn't run correctly on my install, I use local Cypress to run tests. <br>
 May work on your build. <br>
 If not use local install of cypress and find movie-app folder to run tests. <br>
+
+

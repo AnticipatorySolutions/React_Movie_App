@@ -12,7 +12,7 @@ class MovieGridContainer extends React.Component{
     }
 
     componentDidMount() {
-        fetch('http://api.themoviedb.org/3/movie/popular?api_key=fc1cf25b724581c35e8ee95c93e21088')
+        fetch('http://api.themoviedb.org/3/movie/popular?api_key=Insert_Your_API_Key_Here')
           .then(res => res.json())
           .then(
             (result) => {
@@ -46,8 +46,8 @@ class MovieGridContainer extends React.Component{
             </div>
         )} else {
             return (
-                <div className="col">
-                  {details.map((detail) => <Panel key={detail.id} size={"w185"} text={detail.title} src={detail.backdrop_path}/>)}
+                <div className="mt-1">
+                  {details.map((detail) => <Panel key={detail.id} size={"w185"} altText={detail.title} src={detail.backdrop_path}/>)}
                 </div>
             )}
     }
