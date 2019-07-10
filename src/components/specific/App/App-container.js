@@ -11,7 +11,7 @@ import MovieGrid from '../../specific/MovieGrid'
 function AppContainer(){
     return (
         <div className="App">
-            <NavBar text={'Pop Movies'}/>
+            <NavBar text={'Popular Movies'}/>
             <MovieGrid />
         </div>
     );
